@@ -3,8 +3,6 @@
 # if the closing one doesn't match the top of the stack, its not in the right order
 # we can fail early
 # at the end, the stack should be empty or we can return a fail / False
-
-
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
